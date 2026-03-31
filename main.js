@@ -15,3 +15,9 @@ fetch(BASE + "/1", {
 })
   .then((res) => res.json())
   .then((data) => console.log("Updated:", data));
+import { getUsers, getUser, searchUsers, updateUser } from "./api/usersApi.js";
+
+getUsers();
+getUser();
+searchUsers();
+updateUser();
